@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import NavBar from "./components/Navbar";
-import Message from "./components/Message";
-import Score from "./components/Score";
-import Total from "./components/Total";
 import Header from "./components/Header";
 import Container from "./components/Container";
 import Cards from "./components/Cards";
@@ -15,7 +12,7 @@ class App extends Component {
     message: "Welcome!",
     score: 0,
     topScore: 0,
-    images:images
+    images: images
   }
 
   HandleRenderMessage() {
@@ -47,8 +44,8 @@ class App extends Component {
         <Container>
           {this.state.images.map(images => (
             <Cards
-            id={images.id}
-            key={images.id}
+              id={images.id}
+              key={images.id}
               name={images.name}
               image={images.image}
             />
