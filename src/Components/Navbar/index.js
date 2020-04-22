@@ -6,7 +6,7 @@ function Navbar(props) {
         <div className="bg-dark text-white py-3">
             <div className="row">
                 <div className="col-4">
-                <p className="h1 text-left pl-3">70's Detectives Clicky</p>
+                <p className="h1 text-left pl-3">70's TV Mashup</p>
                 </div>
                 <div className="col-4">
                 <p className="h2 text-center pt-2">{props.message}</p>
