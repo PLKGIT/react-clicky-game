@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Navscore(props) {
+function Navscore() {
 
     return (
         <div>

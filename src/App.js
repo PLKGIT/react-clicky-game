@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
-import NavBar from "./Components/Navbar"
+import NavBar from "./components/Navbar";
+import Message from "./components/Message";
+import Score from "./components/Score";
+import Total from "./components/Total";
+import Header from "./components/Header";
+import Container from "./components/Container";
+import Cards from "./components/Cards";
+import Footer from "./components/Footer";
+import images from "./images.json";
+
 
 class App extends Component {
   state = {
-    message: "Welcome to Clicky!",
+    message: "Welcome!",
     score: 0,
     topScore: 0
-
   }
 
   HandleRenderMessage(){
@@ -33,7 +41,7 @@ class App extends Component {
             score = {this.state.score}
             topScore = {this.state.topScore}
           />
-
+          <Footer/>
       </div>
     );
   }

@@ -1,21 +1,21 @@
-import React from './node_modules/react';
+import React from 'react';
 
-function Navbar() {
+function Navbar(props) {
 
     return (
-        <nav className="navbar navbar-dark bg-primary">
-
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <h2>Message: {props.message}</h2>
-                </li>
-                <li class="nav-item active">
-                    <h2>Score: {props.score}</h2>        </li>
-                <li class="nav-item active">
-                    <h2>Top Score: {props.topScore}</h2>        </li>
-
-            </ul>
-        </nav>
+        <div className="bg-dark text-white py-3">
+            <div className="row">
+                <div className="col-4">
+                <p className="h1 text-left pl-3">70's Detectives Clicky</p>
+                </div>
+                <div className="col-4">
+                <p className="h2 text-center pt-2">{props.message}</p>
+                </div>
+                <div className="col-4">
+                <p className="h2 text-right  pt-2 pr-3">Score: {props.score} | Top Score: {props.topScore}</p>
+                </div>
+            </div>
+        </div>
     )
 }
 

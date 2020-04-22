@@ -1,0 +1,62 @@
+  [
+    {
+    "id": 1,
+    "name": "Adam 12",
+    "image": "./images/adam12.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Baretta",
+    "image": "./images/baretta.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Barnaby Jones",
+    "image": "./images/barnaby.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Barney Miller",
+    "image": "./images/barneymiller.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cagney and Lacey",
+    "image": "./images/cagney.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Cannon",
+    "image": "./images/cannon.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Charlies' Angels",
+    "image": "./images/charlies.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Columbo",
+    "image": "./images/columbo.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Hart to Hart",
+    "image": "./images/hart.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Hawaii 5-0",
+    "image": "./images/hawaii.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Ironside",
+    "image": "./images/ironside.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Kojak",
+    "image": "./images/kojak.jpg"
+  }
+]
