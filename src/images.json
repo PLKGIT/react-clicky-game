@@ -1,8 +1,8 @@
   [
     {
     "id": 1,
-    "name": "Adam 12",
-    "image": "./images/adam12.jpg"
+    "name": "Rockford Files",
+    "image": "./images/rockford.jpg"
   },
   {
     "id": 2,
@@ -11,23 +11,23 @@
   },
   {
     "id": 3,
-    "name": "Barnaby Jones",
-    "image": "./images/barnaby.jpg"
+    "name": "Mannix",
+    "image": "./images/mannix.jpg"
   },
   {
     "id": 4,
-    "name": "Barney Miller",
-    "image": "./images/barneymiller.jpg"
+    "name": "Police Woman",
+    "image": "./images/policewoman.jpg"
   },
   {
     "id": 5,
-    "name": "Cagney and Lacey",
-    "image": "./images/cagney.jpg"
+    "name": "Quincy, M.E.",
+    "image": "./images/quincy.jpg"
   },
   {
     "id": 6,
-    "name": "Cannon",
-    "image": "./images/cannon.jpg"
+    "name": "Mod Squad",
+    "image": "./images/modsquad.jpg"
   },
   {
     "id": 7,
@@ -58,5 +58,25 @@
     "id": 12,
     "name": "Kojak",
     "image": "./images/kojak.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Barnaby Jones",
+    "image": "./images/barnaby.jpg"
+  },
+  {
+    "id": 14,
+    "name": "McMillan & Wife",
+    "image": "./images/mcmillan.jpg"
+  },
+  {
+    "id": 15,
+    "name": "McCloud",
+    "image": "./images/mccloud.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Starsky and Hutch",
+    "image": "./images/starsky.jpg"
   }
 ]
