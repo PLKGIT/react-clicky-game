@@ -10,7 +10,7 @@ import images from "./images.json";
 class App extends Component {
 
   state = {
-    message: "Welcome to the 70s!",
+    message: "Welcome to 70s TV!",
     score: 0,
     topScore: 0,
     images
@@ -40,7 +40,7 @@ class App extends Component {
     this.setState({
       images: this.ResetClicked(userClicked),
       score: 0,
-      message: "Sorry, you chose that already!"
+      message: "Sorry, you clicked that card already!"
     });
   }
 

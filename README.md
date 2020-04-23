@@ -16,6 +16,7 @@ In the 1970's detective show-themed app, players gain a point each time they cli
 * HTML5
 * CSS3
 * JavaScript
+* Node.js
 * React
 * JSX
 * Bootstrap
