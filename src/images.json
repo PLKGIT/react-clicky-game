@@ -2,81 +2,97 @@
     {
     "id": 1,
     "name": "Rockford Files",
-    "image": "./images/rockford.jpg"
+    "image": "./images/rockford.jpg",
+    "clicked": false
   },
   {
     "id": 2,
     "name": "Baretta",
-    "image": "./images/baretta.jpg"
+    "image": "./images/baretta.jpg",
+    "clicked": false
   },
   {
     "id": 3,
     "name": "Mannix",
-    "image": "./images/mannix.jpg"
+    "image": "./images/mannix.jpg",
+    "clicked": false
   },
   {
     "id": 4,
     "name": "Police Woman",
-    "image": "./images/policewoman.jpg"
+    "image": "./images/policewoman.jpg",
+    "clicked": false
   },
   {
     "id": 5,
     "name": "Quincy, M.E.",
-    "image": "./images/quincy.jpg"
+    "image": "./images/quincy.jpg",
+    "clicked": false
   },
   {
     "id": 6,
     "name": "Mod Squad",
-    "image": "./images/modsquad.jpg"
+    "image": "./images/modsquad.jpg",
+    "clicked": false
   },
   {
     "id": 7,
     "name": "Charlies' Angels",
-    "image": "./images/charlies.jpg"
+    "image": "./images/charlies.jpg",
+    "clicked": false
   },
   {
     "id": 8,
     "name": "Columbo",
-    "image": "./images/columbo.jpg"
+    "image": "./images/columbo.jpg",
+    "clicked": false
   },
   {
     "id": 9,
     "name": "Hart to Hart",
-    "image": "./images/hart.jpg"
+    "image": "./images/hart.jpg",
+    "clicked": false
   },
   {
     "id": 10,
     "name": "Hawaii 5-0",
-    "image": "./images/hawaii.jpg"
+    "image": "./images/hawaii.jpg",
+    "clicked": false
   },
   {
     "id": 11,
     "name": "Ironside",
-    "image": "./images/ironside.jpg"
+    "image": "./images/ironside.jpg",
+    "clicked": false
   },
   {
     "id": 12,
     "name": "Kojak",
-    "image": "./images/kojak.jpg"
+    "image": "./images/kojak.jpg",
+    "clicked": false
   },
   {
     "id": 13,
     "name": "Barnaby Jones",
-    "image": "./images/barnaby.jpg"
+    "image": "./images/barnaby.jpg",
+    "clicked": false
   },
   {
     "id": 14,
     "name": "McMillan & Wife",
-    "image": "./images/mcmillan.jpg"
+    "image": "./images/mcmillan.jpg",
+    "clicked": false
   },
   {
     "id": 15,
     "name": "McCloud",
-    "image": "./images/mccloud.jpg"
+    "image": "./images/mccloud.jpg",
+    "clicked": false
   },
   {
     "id": 16,
     "name": "Starsky and Hutch",
-    "image": "./images/starsky.jpg"
+    "image": "./images/starsky.jpg",
+    "clicked": false
   }
 ]
