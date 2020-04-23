@@ -3,7 +3,9 @@
 ## Overview
 In the 1970's detective show-themed app, players gain a point each time they click one of the available cards without repeating a prior selection. Every time the player clicks a card, all cards shuffle in random order.  Players get a point each time they click a unique card.  A player's score is reset to 0 any time they click a card has been chosen before in the current game.  Player score and top score are shown in the header.
 
-![](TBD)
+![https://res.cloudinary.com/damplk/image/upload/v1587624373/portal/hw_clicky_react_ighk53.png](https://res.cloudinary.com/damplk/image/upload/v1587624373/portal/hw_clicky_react_ighk53.png)
+
+![https://res.cloudinary.com/damplk/image/upload/v1587624758/portal/hw_clicky_react_02_jv9hvt.png](https://res.cloudinary.com/damplk/image/upload/v1587624758/portal/hw_clicky_react_02_jv9hvt.png)
 
 ## Using the Clicky Game
 * Try to click on each of the 16 available cards without repeating
@@ -15,6 +17,7 @@ In the 1970's detective show-themed app, players gain a point each time they cli
 * CSS3
 * JavaScript
 * React
+* JSX
 * Bootstrap
 
 ## Development Details
@@ -23,13 +26,15 @@ In the 1970's detective show-themed app, players gain a point each time they cli
 Pam Kelly at [esq.kelly@gmail.com](mailto:esq.kelly@gmail.com)
 
 ### GitHub Repository
-[GitHub](https://github.com/PLKGIT/deployed-clicky-gamee) at https://github.com/PLKGIT/deployed-clicky-game
+This is the original repository, but the deployed application is at https://plkgit.github.io/clicky-game/.
+
+[GitHub](https://github.com/PLKGIT/react-clicky-game) at https://github.com/PLKGIT/react-clicky-game
 
 ### Deployed Application
-[70's TV Mashup](https://plkgit.github.io/deployed-clicky-game/) deployed at https://plkgit.github.io/deployed-clicky-game/
+[70's TV Mashup](https://plkgit.github.io/clicky-game/) deployed at https://plkgit.github.io/clicky-game/
 
 ### Portfolio
-[Professional Portfolio](https://www.pamkelly.com/portdev.htmll) at 
+[Professional Portfolio](https://www.pamkelly.com/portdev.html) at 
 https://www.pamkelly.com/portdev.html
 
 
