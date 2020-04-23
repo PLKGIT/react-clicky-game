@@ -23,10 +23,10 @@ In the 1970's detective show-themed app, players gain a point each time they cli
 Pam Kelly at [esq.kelly@gmail.com](mailto:esq.kelly@gmail.com)
 
 ### GitHub Repository
-[GitHub](https://github.com/PLKGIT/react-clicky-game) at https://github.com/PLKGIT/react-clicky-game
+[GitHub](https://github.com/PLKGIT/deployed-clicky-gamee) at https://github.com/PLKGIT/deployed-clicky-game
 
 ### Deployed Application
-[70's TV Mashup]() deployed at TBD
+[70's TV Mashup](https://plkgit.github.io/deployed-clicky-game/) deployed at https://plkgit.github.io/deployed-clicky-game/
 
 ### Portfolio
 [Professional Portfolio](https://www.pamkelly.com/portdev.htmll) at 
