@@ -17,3 +17,11 @@ header {
     background-color: #4C4;
     height: 50px;
 }
+
+.message-correct {
+  color: green
+}
+
+.message-incorrect {
+  color: red
+}

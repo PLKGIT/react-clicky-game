@@ -28,23 +28,25 @@ class App extends Component {
     const topScoreCount = Math.max(scoreCount, topScore);
 
     this.setState({
-      images: this.shuffleImages(userClicked),
+      images: this.ShuffleImages(userClicked),
       score: scoreCount,
-      topScore: topScoreCount
+      topScore: topScoreCount,
+      message: "Good guess!"
     });
 
   }
 
   HandleRepeatClick = userClicked => {
     this.setState({
-      images: this.resetImages(userClicked),
-      score: 0
+      images: this.ResetClicked(userClicked),
+      score: 0,
+      message: "Sorry, you chose that already!"
     });
   }
 
   ResetClicked = images => {
     const resetClicked = images.map(item => ({ ...item, clicked: false }));
-    return this.shuffleImages(resetClicked);
+    return this.ShuffleImages(resetClicked);
   };
 
   ShuffleImages = images => {
@@ -59,14 +61,24 @@ class App extends Component {
     return images;
   };
 
-  HandleCardClicked = event => {
-    console.log(`Card ${event} clicked!`)
+  HandleCardClicked = userClicked => {
+    console.log(`Card clicked!`)
+    let correctGuess = false;
+    const newImages = this.state.images.map(image => {
+      const newImage = { ...image };
 
-
-  }
-
-
-
+      if (newImage.id === userClicked) {
+        if (!newImage.clicked) {
+          newImage.clicked = true;
+          correctGuess = true;
+        }
+      }
+      return newImage;
+    });
+    correctGuess 
+    ? this.HandleCorrectClick(newImages) 
+    : this.HandleRepeatClick(newImages);
+  };
 
   render() {
     return (
@@ -83,7 +95,9 @@ class App extends Component {
             <Cards
               id={images.id}
               key={images.id}
+              name={images.name}
               image={images.image}
+              clicked={images.clicked}
               HandleCardClicked={this.HandleCardClicked}
             />
           ))}
